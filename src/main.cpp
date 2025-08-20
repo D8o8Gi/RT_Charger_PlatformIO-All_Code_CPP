@@ -13,7 +13,7 @@ void setup() {
   ServoSetup();
   setup_FrontMot();
   setup_RearMot();
-  setup_OTA();
+  // setup_OTA();
 }
 
 void loop() {
@@ -52,7 +52,7 @@ void loop() {
     servo_loop();
     loop_MotRear();
     loop_MotFront();
-    loop_OTA();
+    // loop_OTA();
   }
 
 }
