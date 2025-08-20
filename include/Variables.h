@@ -31,8 +31,10 @@ void setup_FrontMot();
 void loop_MotFront();
 void setup_RearMot();
 void loop_MotRear();
-
 // Print data function
 void Print_Controller_data(); 
+// OTA functions
+void setup_OTA();
+void loop_OTA();
 
 #endif

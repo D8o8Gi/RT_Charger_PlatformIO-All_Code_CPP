@@ -13,6 +13,7 @@ void setup() {
   ServoSetup();
   setup_FrontMot();
   setup_RearMot();
+  setup_OTA();
 }
 
 void loop() {
@@ -47,10 +48,11 @@ void loop() {
     Touchpad = PS4.Touchpad();
     
 /* --- Loop Endees Ehelne --- */
-    Print_Controller_data();
+    // Print_Controller_data();
     servo_loop();
     loop_MotRear();
     loop_MotFront();
+    loop_OTA();
   }
 
 }
